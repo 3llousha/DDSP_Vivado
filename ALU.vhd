@@ -15,7 +15,7 @@ end ALU;
 -- Architecture definition for ALU
 architecture Structural of ALU is
     signal Sum : STD_LOGIC_VECTOR(7 downto 0);       -- Sum output from adder
-    signal Cout_internal : STD_LOGIC;                -- Carryout from adder
+    signal Cou_internal: STD_LOGIC;                -- Carryout from adder
     signal Logic_out : STD_LOGIC_VECTOR(7 downto 0); -- Output from logic block
 
     -- Component declaration for Adder8Bit
